@@ -1,0 +1,167 @@
+.wrapper {
+    width: 1300px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #57A6A1;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width:100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:paleturquoise;
+    z-index: 1;
+    border-bottom: 1px solid #57A6A1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    padding: 7px 10px;
+    background-color:whitesmoke;
+    width: 80px;
+}
+
+.fa-solid{
+    color:aquamarine;
+}
+
+.cart p{ 
+    width: 22px;
+    height:22px;
+    display: flex;
+    color:whitesmoke;
+    border-radius: 22px;
+    justify-content: center;
+    align-items: center;
+    background-color:aquamarine;
+
+}
+
+.header {
+    width: 60%;
+    height: 75px;
+    display: flex;
+    border-radius: 2px;
+    padding: 20px;
+    margin: 40px 0px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:cyan;
+    
+}
+
+.cart {
+
+    display: flex;
+     width: 60px;
+     align-items: center;
+     justify-content: space-between;
+     border-radius: 5px;
+     background-color: cyan;
+}
+ 
+.fa-solid {
+    color:cyan;
+
+}
+
+.sidebar {
+    width: 40%;
+    padding: 12px;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+
+.cart p{
+    width: 40px;
+    height: 40px;
+    color:whitesmoke;
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: cyan;
+
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+#root {
+    display: grid;
+    width: 60%;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.head {
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 3px;
+    background-color: aqua;
+    color:white;
+
+}
+
+.foot {
+    display: flex;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    justify-content: space-between;
+    border-top: 1px solid #57A6A1;
+    
+}
