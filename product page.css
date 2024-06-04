@@ -40,15 +40,17 @@ body {
 
 .product-container {
     width: 22%;
+    height: 370px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     margin-bottom: 5rem;
+    background-color:white;
 }
 
 .product-image-wrapper {
-    height: 500px;
+    height: 300px;
     width: 100%;
     overflow: hidden;
 }
@@ -77,9 +79,9 @@ body {
 }
 
 .product-title {
-    font-size: 20px;
+    font-size: 15px;
     margin: 5px 0;
-    font-weight: 500;
+    font-weight: 350;
 }
 
 .product-price {
@@ -91,9 +93,13 @@ body {
 a.green-button {
     background:#A1DD70;
     border-radius: 20px;
-    margin-bottom: 50px;
-    padding: 10px 20px 10px 20px;
+    margin-top: 80px;
+    padding: 1px 35px 2px 35px;
     color:#FFFFFF;
     cursor: pointer;
     font-weight: bold;
+}
+
+body {
+    background-color: aquamarine;
 }
